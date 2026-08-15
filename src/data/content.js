@@ -1,7 +1,7 @@
 export const brand = {
   name: "FOURGE",
   // Placeholder name — swap this one string and the whole site updates.
-  tagline: "Four founders. One build discipline.",
+  tagline: "Digital products made to move business forward.",
   email: "hello@fourge.dev",
   location: "Remote-first · India",
 };
