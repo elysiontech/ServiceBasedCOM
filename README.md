@@ -63,4 +63,4 @@ src/
 - Testimonials (`testimonials` array) — currently generic, replace once
   you have real clients
 - Engagement models describe *how* you charge, not fixed prices — add
-  real numbers once you've decided them, or keep it quote-based
+  real numbers once you've decided them, or keep it quote-based\
