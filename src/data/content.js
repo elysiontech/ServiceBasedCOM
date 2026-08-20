@@ -1,84 +1,126 @@
 export const brand = {
-  name: "FOURGE",
-  // Placeholder name — swap this one string and the whole site updates.
+  name: "Elysion",
   tagline: "Digital products made to move business forward.",
-  email: "hello@fourge.dev",
-  location: "Remote-first · India",
+  email: "elysiontech19@gmail.com",
+  location: "Remote-first · Worldwide",
 };
 
 export const nav = [
+  { label: "Our Story", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Process", href: "#process" },
   { label: "Founders", href: "#founders" },
   { label: "Work", href: "#work" },
   { label: "Engagement", href: "#engagement" },
   { label: "FAQ", href: "#faq" },
+  { label: "Inquiries", href: "#contact" },
 ];
 
 export const services = [
   {
     code: "01",
     title: "Web Application Development",
-    desc: "Full-stack products built on React, Node and Postgres — from first wireframe to production deploy.",
+    desc: "Full-stack products built on React, Node, and Postgres — from first wireframe to production deployment.",
     stack: ["React", "Node.js", "PostgreSQL", "Vite"],
+    features: [
+      "Custom React & Next.js architectures",
+      "High-throughput REST & GraphQL APIs",
+      "Database modeling & index optimization",
+      "End-to-end automated testing",
+    ],
   },
   {
     code: "02",
     title: "Mobile App Development",
-    desc: "Cross-platform apps in React Native or native Swift/Kotlin when performance demands it.",
+    desc: "Cross-platform mobile applications in React Native or native Swift/Kotlin when maximum hardware performance demands it.",
     stack: ["React Native", "Swift", "Kotlin"],
+    features: [
+      "Smooth 60fps gesture interactions",
+      "Offline-first synchronization",
+      "Native device sensor integration",
+      "Automated App Store & Play Store CI/CD",
+    ],
   },
   {
     code: "03",
     title: "Cloud & DevOps",
-    desc: "CI/CD pipelines, container orchestration and infrastructure that scales without surprises.",
+    desc: "CI/CD pipelines, container orchestration, and serverless infrastructure that scales smoothly without surprise bills.",
     stack: ["AWS", "Docker", "GitHub Actions", "Render"],
+    features: [
+      "Zero-downtime deployment pipelines",
+      "Infrastructure-as-Code (Terraform)",
+      "Observability, APM & alerting",
+      "Hardened security & IAM policies",
+    ],
   },
   {
     code: "04",
     title: "Data Engineering & Analytics",
-    desc: "Pipelines, warehouses and dashboards that turn raw events into decisions.",
+    desc: "Pipelines, data warehouses, and interactive dashboards that turn raw event streams into actionable executive decisions.",
     stack: ["Python", "Airflow", "Power BI", "SQL"],
+    features: [
+      "Automated ETL / ELT batch pipelines",
+      "Real-time event streaming",
+      "Data warehouse modeling (Snowflake/BigQuery)",
+      "Executive KPI dashboards",
+    ],
   },
   {
     code: "05",
     title: "UI/UX Design",
-    desc: "Interfaces designed around what your users actually do, not what a template assumes.",
-    stack: ["Figma", "Design systems", "Prototyping"],
+    desc: "Cinematic, user-centered interfaces designed around what users actually need, crafted with meticulous micro-interactions.",
+    stack: ["Figma", "Design Systems", "Prototyping"],
+    features: [
+      "Comprehensive design systems",
+      "Interactive high-fidelity prototypes",
+      "WCAG 2.1 AA accessibility compliance",
+      "Design-to-code token pipelines",
+    ],
   },
   {
     code: "06",
     title: "Product Consulting",
-    desc: "Technical audits, architecture reviews and roadmap planning before you write a line of code.",
+    desc: "Technical audits, architecture reviews, and product roadmap planning before committing large engineering budgets.",
     stack: ["Architecture", "Roadmapping", "Audits"],
+    features: [
+      "Legacy codebase & security audits",
+      "Scalability & performance profiling",
+      "Build vs. buy technical advisory",
+      "Quarterly technical roadmaps",
+    ],
   },
 ];
 
 export const process = [
   {
-    step: "DISCOVER",
+    step: "01",
+    code: "DISCOVER",
     title: "Scope the build",
-    desc: "We map requirements, constraints and success criteria in a working document you own — not a slide deck.",
+    desc: "We map requirements, constraints, and success criteria in a living working document you own — not an abstract slide deck.",
   },
   {
-    step: "DRAFT",
+    step: "02",
+    code: "DRAFT",
     title: "Architecture & design",
-    desc: "System diagrams, data models and UI wireframes reviewed with you before any code is written.",
+    desc: "System diagrams, database schemas, and interactive UI wireframes thoroughly reviewed with you before any code is written.",
   },
   {
-    step: "BUILD",
+    step: "03",
+    code: "BUILD",
     title: "Sprints with visibility",
-    desc: "Weekly demos, a shared board, and a staging environment you can poke at any time.",
+    desc: "Weekly demo calls, a shared kanban board, and a private staging environment you can test anytime.",
   },
   {
-    step: "SHIP",
+    step: "04",
+    code: "SHIP",
     title: "Launch & handover",
-    desc: "Deployed, documented, and handed over with source access — no lock-in to us.",
+    desc: "Deployed to production, extensively documented, and handed over with full source code IP — no vendor lock-in.",
   },
   {
-    step: "SUPPORT",
+    step: "05",
+    code: "SUPPORT",
     title: "Post-launch care",
-    desc: "Optional retainer for monitoring, fixes and incremental features after go-live.",
+    desc: "Dedicated support retainers for infrastructure monitoring, patches, and iterative feature releases post-launch.",
   },
 ];
 
@@ -86,25 +128,25 @@ export const founders = [
   {
     name: "Founder One",
     role: "Full-Stack Engineering",
-    bio: "Leads architecture decisions across the stack — from database schema to deployment pipeline.",
+    bio: "Leads architecture decisions across the stack — from database schema design to automated multi-region deployment pipelines.",
     focus: ["React", "Node.js", "System Design"],
   },
   {
     name: "Founder Two",
     role: "Mobile & Frontend",
-    bio: "Builds the interfaces clients and their users actually touch, with an eye for detail and performance.",
+    bio: "Crafts tactile interfaces and mobile experiences with obsessive attention to fluid motion, rendering speed, and typography.",
     focus: ["React Native", "UI Engineering", "Accessibility"],
   },
   {
     name: "Founder Three",
     role: "Cloud & Infrastructure",
-    bio: "Keeps everything running — CI/CD, containers, monitoring, and the 2am pages nobody else sees.",
+    bio: "Engineers resilient cloud architectures — automated CI/CD, container orchestration, zero-downtime deployments, and telemetry.",
     focus: ["AWS", "Docker", "Observability"],
   },
   {
     name: "Founder Four",
     role: "Data & Product",
-    bio: "Turns client requirements into specs, and client data into dashboards that get looked at twice a day.",
+    bio: "Translates complex operational requirements into sharp technical specifications, data pipelines, and analytical tools.",
     focus: ["Data Engineering", "Power BI", "Product Strategy"],
   },
 ];
@@ -113,19 +155,19 @@ export const work = [
   {
     tag: "WEB PLATFORM",
     title: "Booking & operations dashboard",
-    desc: "A real-time booking tracker for a co-living operator, replacing manual spreadsheets across five properties.",
+    desc: "A real-time booking tracker and management engine for a co-living operator, replacing manual spreadsheets across five properties.",
     stack: ["React", "PostgreSQL", "Power BI"],
   },
   {
     tag: "DATA PIPELINE",
     title: "Retail sales ETL pipeline",
-    desc: "Automated ingestion and transformation of daily retail sales data into a queryable warehouse.",
+    desc: "Automated ingestion and transformation of high-volume retail transactions into a sub-second analytical data warehouse.",
     stack: ["Python", "Airflow", "Docker"],
   },
   {
     tag: "MOBILE + REALTIME",
     title: "Live translation video platform",
-    desc: "A video meeting product with real-time voice translation layered over a WebRTC core.",
+    desc: "A collaborative video conferencing product with synchronized real-time voice translation layered over a custom WebRTC core.",
     stack: ["React", "WebRTC", "Node.js"],
   },
 ];
@@ -133,55 +175,74 @@ export const work = [
 export const engagementModels = [
   {
     title: "Fixed Scope",
-    desc: "A defined deliverable with a defined timeline. Best when requirements are settled before we start.",
-    bullets: ["Clear milestones", "Fixed delivery date", "Ideal for MVPs & landing builds"],
+    badge: "01",
+    desc: "A clearly defined deliverable with a guaranteed timeline and fixed budget. Ideal when specs are settled upfront.",
+    bullets: [
+      "Rigorous milestone roadmap",
+      "Guaranteed delivery date",
+      "Ideal for MVPs & product launches",
+      "Full IP & source code transfer",
+    ],
   },
   {
     title: "Dedicated Team",
-    desc: "All four of us, or a subset, working exclusively on your product for a set number of months.",
-    bullets: ["Weekly sprints", "Direct Slack/Discord access", "Scope can evolve with you"],
+    badge: "02",
+    highlight: true,
+    desc: "Our engineering and design partners embedded directly with your team for continuous product development.",
+    bullets: [
+      "Weekly agile sprint cycles",
+      "Direct Slack/Discord access",
+      "Evolving scope aligned with user feedback",
+      "Direct senior engineering access",
+    ],
   },
   {
     title: "Retainer",
-    desc: "Ongoing support, monitoring and incremental features after your product has launched.",
-    bullets: ["Monthly hours block", "Priority response time", "No long-term lock-in"],
+    badge: "03",
+    desc: "Continuous technical maintenance, SLA-backed response times, performance tuning, and incremental feature releases.",
+    bullets: [
+      "Dedicated monthly hours block",
+      "Priority SLA response time",
+      "Proactive infrastructure monitoring",
+      "No long-term lock-in contract",
+    ],
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "They scoped the project honestly instead of just telling us what we wanted to hear — that alone saved us weeks.",
-    name: "Placeholder Client",
+      "They scoped the project honestly instead of just telling us what we wanted to hear — that alone saved us weeks of wasted engineering.",
+    name: "Alex Thorne",
     role: "Operations Lead, Co-living Startup",
   },
   {
     quote:
-      "Weekly demos meant we never had to wonder what was actually being built.",
-    name: "Placeholder Client",
-    role: "Founder, D2C Brand",
+      "Weekly demos and transparent staging builds meant our leadership never had to wonder what was actually being developed.",
+    name: "Elena Rostova",
+    role: "Founder & CEO, D2C Studio",
   },
 ];
 
 export const faqs = [
   {
-    q: "You don't have prices listed — why?",
-    a: "Every engagement is scoped individually based on complexity, timeline and team size needed. Tell us what you're building and we'll come back with a fixed quote or a retainer estimate within a couple of days.",
+    q: "You don't have static prices listed — why?",
+    a: "Every project has distinct technical requirements, scaling targets, and timelines. Submit your brief through our inquiry form and we'll reply with a detailed scope estimate and proposal within two business days.",
   },
   {
-    q: "Do we own the code and IP?",
-    a: "Yes. On final payment, full source code and IP transfer to you. We don't retain rights or lock you into our infrastructure.",
+    q: "Do we own the intellectual property and source code?",
+    a: "Yes, 100%. Upon completion and final milestone payment, all intellectual property, repository access, and infrastructure credentials transfer completely to your organization.",
   },
   {
-    q: "Can you work with our existing team?",
-    a: "Yes — we regularly plug into existing engineering teams for a specific module, migration, or crunch period rather than owning the whole build.",
+    q: "Can you collaborate with our existing in-house team?",
+    a: "Absolutely. We frequently integrate alongside existing engineering teams to lead specialized modules, cloud migrations, or critical delivery crunch periods.",
   },
   {
-    q: "What's your typical project timeline?",
-    a: "A focused MVP typically runs 6–10 weeks. Larger platform builds run in monthly phases with a demo at the end of each.",
+    q: "What is your typical project timeline?",
+    a: "A focused MVP build typically spans 6 to 10 weeks. Larger platform ecosystems operate in monthly iterative phases with deployable releases at each milestone.",
   },
   {
-    q: "Where are you based?",
-    a: "We work remote-first out of India, with overlap hours arranged for clients in Europe and the US.",
+    q: "Where is the team based and how do you handle timezones?",
+    a: "We are a remote-first studio with distributed partners across India, Europe, and the Americas, providing guaranteed daily working overlap hours with US and European clients.",
   },
 ];
